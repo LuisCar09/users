@@ -3,11 +3,65 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 20px;
+  
 }
 
 h1 {
   text-align: center;
   color: #333;
 }
+ul{
+  /* margin: 0; */
+  padding: 0;
+  font-size: 12px;
+}
+#listaUsuarios{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.item-list{
+  list-style: none;
+  width: 300px;
+  padding: 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+ 
+}
+.item-list  p{
+  font-weight: 900;
+  margin: 0;
+}
+.item-list  span{
+  font-weight: 900;
+}
+.footer {
+  margin-bottom: 12px;
 
+}
+.item-list article{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 12px;
+  margin-bottom: 12px;
+}
 
+.item-list article div{
+  padding: 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  flex: 1 0 0;
+  border-radius: 4px;
+
+}
+.item-list article div p{
+  
+  gap: 12px;
+}
+
+.item-list article img{
+  width: 80px;
+  height: 80px;
+}
